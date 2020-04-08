@@ -3,18 +3,57 @@ body {
 }
 
 header {
-    background-color: black;
-    color: snow;
+    color: darkgray;
     height: 60px;
     line-height: 1.5;
     padding: 5px 25px;
+    font-family: 'KoHo', sans-serif;
+    font-weight: lighter;
+}
+
+nav {
+    font-weight: normal;
+    margin-top: auto;
 }
 
 header h1 {
-    float: left;
+    margin: 0;
+    padding: 0;
 }
 
 header ul {
     float: right;
     padding: 6px;
 }
+
+section{
+    margin: 50px 0px 25px 0px;
+    /* font-family: 'Convergence', sans-serif; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    /* font-family: 'KoHo', sans-serif; */
+    /* font-family: 'Zilla Slab', serif; */
+
+    font-weight: light;
+    font-style: italic;
+
+}
+
+#profile {
+    float: left;
+    padding: 0px 50px 50px 25px;
+}
+
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
