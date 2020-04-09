@@ -26,8 +26,22 @@ $('#nav-blog').click(function(){
     }
 });
 
-function hide() {
-    $('hide').hide(1000);
+
+// Display blogs from Medium
+
+$(function() {
+    var data = {
+        rss_url: 'https://medium.com/feed/@chindowns'
+    };
+
+    $.get('https://api.rss2json.com/v1/api.json', data, function(response) {
+        if (response.status === 'ok') {
+            
+    $.each(response.items, function(placeholder, item) {
+        title = `<h3><a href="${item.link}">${item.title}</a></h3>
+                 <p>${item.description}</p>`;
+    });
+$blog.html(title);
 }
-
-
+});
+});

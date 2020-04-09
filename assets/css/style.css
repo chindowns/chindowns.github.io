@@ -39,12 +39,17 @@ header ul {
 
     font-weight: light;
     font-style: italic;
+    display:none;
 
 }
 
 #profile-img {
     float: left;
     padding: 0px 50px 50px 25px;
+}
+
+#blog {
+    display:none;
 }
 
 
