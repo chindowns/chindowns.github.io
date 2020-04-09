@@ -18,7 +18,7 @@
 
 <body>
   
-  <div class="d-flex flex-wrap">
+  <div id="nav" class="d-flex flex-wrap">
     <header class="flex-nowrap">
       <h1> Michael Downs</h1>
       <p>Full Stack Developer</p> 
@@ -28,32 +28,49 @@
     
     <nav class="col-5 d-flex flex-nowrap">
       <ul class="nav nav-pills flex-nowrap">
+        <li class="nav-link d-flex flex-nowrap">
+          <a id="nav-projects" href="#">Latest</a></li>
+        <li class="nav-link d-flex flex-nowrap">
+            <a id="nav-about" href="#">About</a></li>
+        <li class="nav-link d-flex flex-nowrap">
+            <a id="nav-blog" href="#">Blog</a></li>
         <li class="nav-item d-flex flex-nowrap">
-          <a class="nav-link active" href="https://chindowns/github.io/code-refactor">Latest</a>
+          <a class="nav-link" target="blank" href="https://www.linkedin.com/in/michaeldownssj"><img src="assets/images/li-in-bug.png"
+              alt="" width="25px" height="25px" /></a>
         </li>
-        <li class="nav-item d-flex flex-nowrap">
-          <a class="nav-link " href="https://www.linkedin.com/in/michaeldownssj"><img src="assets/images/li-in-bug.png"
-              alt="" width="25px" height="25px" /> LinkedIn</a>
-        </li>
-        <li class="nav-item d-flex flex-nowrap">
-          <a class="nav-link disabled" href="#">Link</a>
-        </li>
-        <li class="nav-item d-flex flex-nowrap">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+
       </ul>
     </nav>
   </div>
 
   <!-- Highlights the latest project -->
 
-    <section class="content">
-      <img id="profile" src="assets/images/Portfolio-HeadShot-3.jpg" width="300px" />
-      <article id="about"> Michael is currently enrolled as a full time student at UC Berkeley Extension's Full Stack Bootcamp program.  Michael delivers clean polished applications in a collaborative enviroment.  He is an effective communicator with an ability to translate technology into everyday language for clients and users.
-      <br /><br />    
-      Always having an affinity towards tech, Michael decided to dive in to learn the latest technologies after 10 years in business consulting and the realestate rental businesses.  In the late 90's and 00's, Michael worked in a cutting-edge business delivering HD advertising in-stores.  As a Product Manager and Field Support manager he worked closely with engineers, QA and clients to ensure quality products were relased.</article>
-    </section>
+    <main class="content">
+      <article id="about">
+      <img id="profile-img" src="assets/images/Portfolio-HeadShot-3.jpg" width="300px" />
+      Michael is currently enrolled as a full time student at UC Berkeley Extension's Full Stack Development program.  Michael delivers clean and polished applications in a collaborative environment.  He is an effective communicator with an ability to translate technology into everyday language for clients and users.
 
+      <br /><br />
+      Michael is a collaborative teammate who will also manage individual tasks in order to get projects completed.  Through his clear communication and leadership skills, he delivered successful projects that involved pair programming and virtual teams.
+      <br /><br />    
+      
+      </article>
+
+      <section id="projects">
+        <p> show this latest section</p>
+        
+      </section>
+
+      <article id="blog">
+        <p> show me a fun blog</p>
+
+      </article>
+
+
+    </main>
+  <footer id="footer">
+
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -65,6 +82,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
