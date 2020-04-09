@@ -31,7 +31,7 @@ header ul {
 }
 
 #projects {
-    margin: 50px 0px 25px 0px;
+    margin: 50px 25px 25px 25px;
     /* font-family: 'Convergence', sans-serif; */
     font-family: 'M PLUS Rounded 1c', sans-serif;
     /* font-family: 'KoHo', sans-serif; */
@@ -40,7 +40,11 @@ header ul {
     font-weight: light;
     font-style: italic;
     display:none;
+}
 
+.project {
+    border-top: 1px solid lightgrey;
+    padding: 5px;
 }
 
 #profile-img {
@@ -52,6 +56,13 @@ header ul {
     display:none;
 }
 
+/* .card-img-top {
+    width: 300px;
+} */
+
+.project-description {
+    padding: 10px 25px 10px 25px;
+}
 
 
 

@@ -41,7 +41,7 @@ $(function() {
         title = `<h3><a href="${item.link}">${item.title}</a></h3>
                  <p>${item.description}</p>`;
     });
-$blog.html(title);
+$('#blog').html(title);
 }
 });
 });
