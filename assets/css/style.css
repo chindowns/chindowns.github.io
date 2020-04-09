@@ -1,6 +1,7 @@
-body {
+html body {
     margin: 0 25px;
 }
+
 
 #nav {
     padding-bottom: 50px;
@@ -62,6 +63,14 @@ header ul {
 
 .project-description {
     padding: 10px 25px 10px 25px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 50px;
 }
 
 
