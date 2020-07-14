@@ -2,7 +2,7 @@
 var hide = "#about";
 
 // Listeners
-$('#nav-projects').click(function(){
+$('#nav-projects').click(function () {
     if (hide !== "#projects") {
         $(hide).hide('slow');
         $('#projects').show('slow');
@@ -10,7 +10,7 @@ $('#nav-projects').click(function(){
     }
 });
 
-$('#nav-about').click(function(){
+$('#nav-about').click(function () {
     if (hide !== '#about') {
         $(hide).hide('slow');
         $('#about').show('slow');
@@ -18,30 +18,84 @@ $('#nav-about').click(function(){
     }
 });
 
-$('#nav-blog').click(function(){
-    if(hide !== '#blog') {
+$('#nav-blog').click(function () {
+    if (hide !== '#blogs') {
         $(hide).hide('slow');
-        $('#blog').show('slow');
-        hide = '#blog';
+        $('#blogs').show('slow');
+        hide = '#blogs';
     }
 });
 
 
+
 // Display blogs from Medium
 
-$(function() {
-    var data = {
+$(function () {
+    const data = {
         rss_url: 'https://medium.com/feed/@chindowns'
     };
 
-    $.get('https://api.rss2json.com/v1/api.json', data, function(response) {
+    $.get('https://api.rss2json.com/v1/api.json', data, function (response) {
         if (response.status === 'ok') {
-            
-    $.each(response.items, function(placeholder, item) {
-        title = `<h3><a href="${item.link}">${item.title}</a></h3>
-                 <p>${item.description}</p>`;
+
+            console.log(response);
+            const items = response.items;
+
+            items.forEach((item, i) => {
+                let blog = `<div id="blog-${i} class="blog">
+                <h2><a href="${item.link}" SameSite=None;Secure >${item.title}</a></h2>
+                 <p>${item.description}</p></div>
+                 <br /><hr /><br />
+                 `;
+
+                $('#blogs').append(blog);
+
+            });
+        };
     });
-$('#blog').html(title);
-}
 });
-});
+
+
+// const getBlogs = (feed) => {
+
+//     $.get('https://medium.com/feed/@chindowns', function(response){
+//         if(response.status === "ok"){
+//             console.log(response)
+//     }
+
+// })
+// }
+
+// const parseBlogs = (blogs) => {
+//     let children = [...blogs.children];
+
+//   // base case for recursion. 
+//   if (!children.length) {
+//     return srcDOM.innerHTML
+//   }
+
+//   // initializing object to be returned. 
+//   let jsonResult = {};
+
+//   for (let child of children) {
+
+//     // checking is child has siblings of same name. 
+//     let childIsArray = children.filter(eachChild => eachChild.nodeName === child.nodeName).length > 1;
+
+//     // if child is array, save the values as array, else as strings. 
+//     if (childIsArray) {
+//       if (jsonResult[child.nodeName] === undefined) {
+//         jsonResult[child.nodeName] = [parseBlogs(child)];
+//       } else {
+//         jsonResult[child.nodeName].push(parseBlogs(child));
+//       }
+//     } else {
+//       jsonResult[child.nodeName] = parseBlogs(child);
+//     }
+//   }
+
+//   return jsonResult;
+
+// }
+
+// console.log(getBlogs('chindowns'));

@@ -17,5 +17,5 @@ Michael Downs portfolio site to highlight current projects with the ability to f
 
 ## Author Links
 #### Michael Downs
-http://www.linkedin.com/in/michaeldownssj   
-https://chindowns.github.io/ 
+<img src="https://avatars3.githubusercontent.com/u/61262454?v=4" alt = "Michael's avatar" style = "width: 40px; border-radius: 15px;"/>   [GitHub](https://github.com/chindowns) Michael Downs 
+[LinkedIn](http://www.linkedin.com/in/michaeldownssj)  

@@ -1,5 +1,5 @@
 html body {
-    margin: 0 25px;
+    margin: 0 25px 50px;
 }
 
 
@@ -50,12 +50,21 @@ header ul {
 
 #profile-img {
     float: left;
-    padding: 0px 50px 50px 25px;
+    margin: 0 25px 25px 25px;
+    padding: 0px;
+    border-radius: 25px;
+    background: white;
+    width: 200px;
 }
 
-#blog {
+#blogs {
     display:none;
     padding: 0 25px;
+}
+
+h2.blog{
+font-size: large;
+font-weight: 500;
 }
 
 /* .card-img-top {
