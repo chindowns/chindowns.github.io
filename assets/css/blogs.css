@@ -1,0 +1,21 @@
+
+#blogs {
+    display: none;
+    padding: 0 25px;
+}
+
+h2.blog {
+    font-size: large;
+    font-weight: 500;
+}
+
+#cards {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+#blog {
+    display: inline;
+}

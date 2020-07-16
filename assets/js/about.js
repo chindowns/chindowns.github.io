@@ -1,7 +1,7 @@
 // Get the information from about.json
 $.getJSON("./assets/db/about.json", db => {
     console.log(db);
-    let image = `<img id="profile-img" src=${db.about.image} />`;
+    let image = `<img id="profile-img" src=${db.about.image}  SameSite=None;Secure />`;
     let aboutDescriptiion = `<div id="aboutDesc"></div><br /><br />`;
     $("#about").html(image, aboutDescriptiion);
 
@@ -19,7 +19,7 @@ $.getJSON("./assets/db/about.json", db => {
             <hr />
         `));
 
-    $("#about").append(`<div id="skills"></div>`);
+    $("#about").append(`<div id="skills" class="skills" ></div>`);
 
     db.techSkills.skills.forEach(skill => 
         $("#skills").append(`<div class="btn btn-secondary">${skill}</div>`))

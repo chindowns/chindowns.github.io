@@ -10,9 +10,9 @@ $.getJSON("./assets/db/projects.json", db => {
                     <p>${project.learning}</p>
                 </td>
                 <td>
-                    <a class="fab fa-github fa-2x" href="${project.github}" target="blank"></a>
-                    <a class="fa fa-link fa-2x" href="${project.url}" target="blank"></a>
-                    <a href="${project.url}" target="blank"><img src="${project.image}" width="400px"></a>
+                    <a class="fab fa-github fa-2x" href="${project.github}" SameSite=None;Secure target="blank"></a>
+                    <a class="fa fa-link fa-2x" href="${project.url}" SameSite=None;Secure target="blank"></a>
+                    <a href="${project.url}" target="blank"><img src="${project.image}" width="400px" SameSite=None;Secure ></a>
                     <div id="project-skills-${i}" class="skills"></div>
                 </td>
             </tr>
@@ -22,5 +22,5 @@ $.getJSON("./assets/db/projects.json", db => {
 });
 
 function addSkill(skill, i){
-    $("#project-skills-"+i).append(`<a class="btn btn-secondary skill">${skill}</a>`);
+    $("#project-skills-"+i).append(`<div class="btn btn-secondary">${skill}</div>`);
 }
