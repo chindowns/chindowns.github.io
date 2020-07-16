@@ -1,0 +1,39 @@
+
+#profile-img {
+    float: left;
+    margin: 0 25px 0px 25px;
+    padding: 0px;
+    border-radius: 25px;
+    background: white;
+    width: 200px;
+}
+
+.center {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+
+icon.center {
+    font-size: 30px;
+    padding: 15px auto 10px;
+    color: slategrey;
+}
+
+div#snippets h3 {
+    font-size: 20px;
+    color: slategrey;
+}
+
+#skills {
+    width: 75%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills div {
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}

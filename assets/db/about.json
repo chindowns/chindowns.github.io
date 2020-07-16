@@ -1,33 +1,43 @@
-{
-    about: {
-        url: "../images/portrait-500.jpg",
-        bio: "A full stack developer and product manager that is passionate about the product. Customer obsessed about listening to the customer to understand their needs and the importance of delivering quality products with a great user experience on time to achieve customer confidence.
-
-Michael delivers clean and polished applications in a collaborative environment. He is an effective communicator that has lead cross-functional teams with an ability to translate technology into everyday language for clients, users, and non-engineering teammates. Michael is a teammate who will manage individual tasks, work with a team pair programming and individual/group troubleshooting. Simply put Michael will is eager to get into the trenches and do whatever it takes to get the job done. Through his clear communication and leadership skills, he delivered successful projects that involved Zoom pair programming, virtual teams and remote troubleshooting.
-
-Michael thrives in startup environments where clear communication is vital for efficient and effective decision making to keep product development moving towards delivery on the due date."
-    },
-    snippets:
+{"about": {
+        "image": "assets/images/portrait-500.jpg",
+        "paragraphs": [
+            "A full stack developer and product manager that is passionate about the product. Customer obsessed. Michael listens to the customer to understand their needs and the importance of delivering quality products on time that exceed expectation to achieve customer confidence.",
+            "Michael delivers clean and polished applications in a collaborative environment. He is an effective communicator that has lead cross-functional teams with an ability to translate technology into everyday language for clients, users, and non-engineering teammates. Michael is a teammate who will manage individual tasks, work with a team pair programming and individual/group troubleshooting. Simply put Michael will is eager to get into the trenches and do whatever it takes to get the job done. Through his clear communication and leadership skills, he delivered successful projects that involved Zoom pair programming, virtual teams and remote troubleshooting.", 
+            "Michael thrives in startup environments where clear communication is vital for efficient and effective decision making to keep product development moving towards delivery on the due date."
+        ]},
+    "snippets":
     [
         {
-            title: "Product Focused",
-            icon: "fas fa-crosshairs",
-            description: "Product Focused means delivering products on time to create great customer experiences.  Keep an eye on the target by managing priorities and deliverables to stay focused on the product."
+            "title": "Product Focused",
+            "icon": "fas fa-crosshairs",
+            "description": "Product Focused means delivering products on time to create great customer experiences.  Keep an eye on the target by managing priorities and deliverables to stay focused on the product."
         },
         {
-            title: "Customer Obsessed",
-            icon: "fas fa-universal-access fa-inverse",
-            description: "Knowing the customer, their needs, wants, and reasons is the best way of building products that solve customer needs.  While being a strong advocate for the customer, I am an advocate for solving the customers challenge which also requires advocating the best solution to fill their need."
+            "title": "Customer Obsessed",
+            "icon": "fas fa-universal-access",
+            "description": "Knowing the customer, their needs, wants, and reasons is the best way of building products that solve customer needs.  While being a strong advocate for the customer, I am an advocate for solving the customers challenge which also requires advocating the best solution to fill their need."
         },
         {
-            title: "Collaborative",
-            icon: "fas fa-people-carry",
-            description: "I have always loved working with cross-functional teams.  With an ability to communicate to diverse disciplines, I found that listening is key to building working relationships.  I like to bring out the best in people by actively listening to them, acknowledging their value, and rolling up my sleeves to help the team wherever needed."
+            "title": "Collaborative",
+            "icon": "fas fa-people-carry",
+            "description": "I have always loved working with cross-functional teams.  With an ability to communicate to diverse disciplines, I found that listening is key to building working relationships.  I like to bring out the best in people by actively listening to them, acknowledging their value, and rolling up my sleeves to help the team wherever needed."
         },
         {
-            title: "Ah-Ha Moment",
-            icon: "far fa-lightbulb",
-            description: "While there are many over the years, I found pair programming very enjoyable."
+            "title": "Ah-Ha Moment",
+            "icon": "far fa-lightbulb",
+            "description": "While there are many over the years, I found pair programming very enjoyable."
         }
-    ]
+    ],
+    "techSkills": {
+        "title": "Tech Skills",
+        "skills": [
+            "Full Stack", "MERN", "MySQL", "Mongo", "NoSQL", "IndexedDB", "jsonDB", "ORM", "ODM", "Express", "React", "Node.js", "JavaScript", "ES6", "JSX", "jQuery", "REST", "RESTful API", "SOAP", "API", "Context API", "Serverside API", "Web API", "3rd Party API", "JSON", "MVC", "OOP", "Stateful Deveopment", "HTML5", "CSS3", "CSS", "CSS framework", "Python", "Django", "Flask", "Sinatra", "Ruby", "Rails", "Ruby on Rails",  "git", "github", "Firebase", "AWS", "Azure", "Google", "Mapbox", "Leaflet.js", "Open Streets", "Problem-Solving"
+        ]
+    },
+    "softSkills": {
+        "title": "Soft Skills",
+        "skills": [
+            "Cross-functional teams", "Effective Communicator", "Presentation to Executive", "Management", "Clients", "Sales & Marketing", "Business Development", "Product Management", "Project Management", "Startups", "Highly Motivated", "Self Initiative", "Detail Oriented", "Team Collaboration", "Self Contributor"
+        ]
+    }
 }

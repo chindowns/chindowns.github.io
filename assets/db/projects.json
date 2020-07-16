@@ -1,0 +1,51 @@
+{
+    "projects": [
+        {
+            "title": "Yum&Yum",
+            "image": "assets/images/yumyum.gif",
+            "url": "https://yum-y-yum.herokuapp.com",
+            "github": "https://github.com/chindowns/Yum-Yum",
+            "description": "Create, Save, View, and Edit your recipes -- You can do it all. Yum&Yum is a MERN (MySQL - Express - React - Node) application designed, developed, & deployed in less than two weeks by the team of 3 people utilizing Agile methodologies. The application uses MySQL -- taking advantage of 7 tables, 7 joins and 3 many to many relationships.<br /><br />The front end is built in React using hooks across 8 pages utilizing 7 additional components shared with the pages. Global State enables user engagement and favorite tracking with all the recipes.  Firebase is used for Storage and Authentication.",
+            "learning": "Using hooks global state instead of Providers.  Use global state for variables used across all pages and only pass props to one child.  As a project, learned the value of staying focused on the product and Minimum Viable Product requirements we set.",
+            "skills": [
+                "MySQL",
+                "Express",
+                "React",
+                "Node.js",
+                "JavaScript",
+                "ES6",
+                "jQuery",
+                "HTML5",
+                "CSS3",
+                "CSS framework",
+                "Bootstrap",
+                "Git",
+                "GitHub",
+                "Heroku"
+            ]
+        },
+        {
+            "title": "JobKit",
+            "image": "assets/images/jobkit.gif",
+            "url": "https://job-kit.herokuapp.com",
+            "github": "https://github.com/chindowns/job-kit",
+            "description": "With today’s competitive job market, many applicants need to apply  an ever-increasing number of roles to ultimately land the position they want. This process can be arduous over the course of several months, so applicants often lose track of useful information related to a job. JobKit organizes all this information in one place for users to leverage and take a more active role in managing their job hunt, ensuring they follow up with the roles that interest them. <br /><br />It is a Full Stack Application utilizing MySQL as the database to store the application details such as multiple contacts and stages of the application process, so users never lose information received from the recruiter and hiring company. Express-Handlebars enables the application to display the Job Opportunities and Applications effectively on the browser page.",
+            "learning": "Learning – Importance of tracking state while working with editable database information in modals. As a project, learned the value of LEAN projects.  Get a MVP running quickly to measure, learn and adjust where needed.",
+            "skills": [
+                "MySQL",
+                "Express",
+                "Node.js",
+                "JavaScript",
+                "ES6",
+                "jQuery",
+                "Firebase",
+                "Express Handlebars",
+                "git",
+                "HTML5",
+                "CSS",
+                "CSS framework",
+                "UI Kit"
+            ]
+        }
+    ]
+}

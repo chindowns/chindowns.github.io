@@ -1,7 +1,7 @@
 const nav = `
       <ul class="nav nav-pills flex-nowrap">
         <li class="nav-link d-flex flex-nowrap">
-          <a id="nav-projects" href="#">Latest</a></li>
+          <a id="nav-projects" href="#">Projects</a></li>
         <li class="nav-link d-flex flex-nowrap">
           <a id="nav-about" href="#">About</a></li>
         <li class="nav-link d-flex flex-nowrap">

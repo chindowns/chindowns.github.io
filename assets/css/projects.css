@@ -1,0 +1,30 @@
+#projects {
+    margin: 25px;
+    /* font-family: 'Convergence', sans-serif; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    /* font-family: 'KoHo', sans-serif; */
+    /* font-family: 'Zilla Slab', serif; */
+
+    font-weight: light;
+    font-style: italic;
+    display:none;
+}
+
+.project {
+    border-top: 1px solid lightgrey;
+    padding: 5px;
+}
+
+
+td { 
+    padding: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.skill {
+    margin: auto;
+    border-radius: 5px;
+    border: 2.5px solid white;
+
+    text-align: center;
+}
