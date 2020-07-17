@@ -44,6 +44,20 @@ header p{
     width: 300px;
 } */
 
+.skills {
+    width: 75%;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    margin: 2px;
+    padding: 2px 5px;
+    font-size: small;
+}
+
 #footer {
     position: fixed;
     left: 0;

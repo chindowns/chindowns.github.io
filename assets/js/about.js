@@ -22,6 +22,6 @@ $.getJSON("./assets/db/about.json", db => {
     $("#about").append(`<div id="skills" class="skills" ></div>`);
 
     db.techSkills.skills.forEach(skill => 
-        $("#skills").append(`<div class="btn btn-secondary">${skill}</div>`))
+        $("#skills").append(`<div class="btn btn-secondary skill">${skill}</div>`))
 });
 

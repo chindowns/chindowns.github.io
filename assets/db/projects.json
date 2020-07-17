@@ -46,6 +46,17 @@
                 "CSS framework",
                 "UI Kit"
             ]
+        },
+        {
+            "title": "Covid19-Tracker",
+            "image": "assets/images/covid-19-animated-app.gif/",
+            "url": "https://chindowns.github.io/covid19-tracker",
+            "github": "https://github.com/chindowns/covid19-tracker",
+            "description": "The first coronavirus app to track the confirmed case trend for each state.  The code has been maintained as API data providers changed and modularizing the software for improved readability and maintenance.<br /><br />In January 2020, the World Health Organization declared the Covid-19 Virus (aka Coronavirus) represents a public health emergency of international concern. On January 31, the U.S. Department of Health and Human Services declared the virus to be a health emergency for the United States.  The first recorded case in the United States was on January 22, 2020.<br /><br />This application, Covid-19 Tracker is a web application that enables the user to see what is happening around the world regarding the Covid-19 Pandemic on one screen.  The application enables the user to select one of the top 10 hotspots around the World and see live updates of how many cases have been Confirmed, Recovered, and Deaths associated to Covid-19 in that country.  Alongside the map, the news will display the latest headline news regarding health news in that country.",
+            "learning": "The value of researching and utilizing established API whenever possible.  Rendering the map to display as a usable format and testing various markers to serve the needs of the software. As a project, the value of pair programming and working with project team in a virtual space.",
+            "skills": [
+                "JavaScript", "ES6", "jQuery", "jsonDB", "NoSQL", "HTML5", "CSS", "Azure", "Cognitive Services", "Bing Search API", "Mapbox", "Open Streets", "Leaflet", "CSS framework", "Bulma"
+            ]
         }
     ]
 }

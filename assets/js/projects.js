@@ -22,5 +22,5 @@ $.getJSON("./assets/db/projects.json", db => {
 });
 
 function addSkill(skill, i){
-    $("#project-skills-"+i).append(`<div class="btn btn-secondary">${skill}</div>`);
+    $("#project-skills-"+i).append(`<div class="btn btn-secondary skill">${skill}</div>`);
 }

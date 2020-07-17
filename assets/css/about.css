@@ -24,17 +24,3 @@ div#snippets h3 {
     font-size: 20px;
     color: slategrey;
 }
-
-.skills {
-    width: 75%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.btn {
-    margin: 2px;
-    padding: 2px 5px;
-}
-
