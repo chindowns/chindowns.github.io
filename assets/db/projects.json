@@ -48,6 +48,30 @@
             ]
         },
         {
+            "title": "Portfolio in MERN",
+            "image": "assets/images/portfolio-mern.jpg",
+            "url": "https://michaeldowns.herokuapp.com",
+            "github": "https://github.com/chindowns/portfolio-mern",
+            "description": "This is a full MERN, MongoDB, Express, React, Nodejs application for Michael Downs portfolio deployed on Heroku.  The application mimics the basic HTML5 and CSS App.  This application demonstrates that the same site can be implemented multiple ways while showing Michael’s proficiency working with React.",
+            "learning": "Seeding MongoDB in a Heroku deployment.",
+            "skills": [
+                "MongoDB",
+                "Express",
+                "React",
+                "Node.js",
+                "JavaScript",
+                "ES6",
+                "RESTful API",
+                "Web API",
+                "3rd Party API",
+                "Ajax",
+                "async-await",
+                "HTML5",
+                "CSS3",
+                "BootStrap"
+            ]
+        },
+        {
             "title": "Covid19-Tracker",
             "image": "assets/images/covid-19-animated-app.gif/",
             "url": "https://chindowns.github.io/covid19-tracker",
@@ -55,8 +79,78 @@
             "description": "The first coronavirus app to track the confirmed case trend for each state.  The code has been maintained as API data providers changed and modularizing the software for improved readability and maintenance.<br /><br />In January 2020, the World Health Organization declared the Covid-19 Virus (aka Coronavirus) represents a public health emergency of international concern. On January 31, the U.S. Department of Health and Human Services declared the virus to be a health emergency for the United States.  The first recorded case in the United States was on January 22, 2020.<br /><br />This application, Covid-19 Tracker is a web application that enables the user to see what is happening around the world regarding the Covid-19 Pandemic on one screen.  The application enables the user to select one of the top 10 hotspots around the World and see live updates of how many cases have been Confirmed, Recovered, and Deaths associated to Covid-19 in that country.  Alongside the map, the news will display the latest headline news regarding health news in that country.",
             "learning": "The value of researching and utilizing established API whenever possible.  Rendering the map to display as a usable format and testing various markers to serve the needs of the software. As a project, the value of pair programming and working with project team in a virtual space.",
             "skills": [
-                "JavaScript", "ES6", "jQuery", "jsonDB", "NoSQL", "HTML5", "CSS", "Azure", "Cognitive Services", "Bing Search API", "Mapbox", "Open Streets", "Leaflet", "CSS framework", "Bulma"
+                "JavaScript",
+                "ES6",
+                "jQuery",
+                "jsonDB",
+                "NoSQL",
+                "HTML5",
+                "CSS",
+                "Azure",
+                "Cognitive Services",
+                "Bing Search API",
+                "Mapbox",
+                "Open Streets",
+                "Leaflet",
+                "CSS framework",
+                "Bulma"
+            ]
+        },
+        {
+            "title": "Tic Tac Toe",
+            "image": "assets/images/tic-tac-toe.gif",
+            "url": "https://chindowns.github.io/tic-tac-toe/",
+            "github": "https://github.com/chindowns/tic-tac-toe",
+            "description": "This clean Tic Tac Toe game is quick and fun play against the computer. Player always goes first. The game is written in jQuery, JavaScript, HTML5 and CSS.",
+            "learning": "While starting with UIKit, remembered KISS. Keeping it simple is always best.  Scraped UIKit for plain CSS.",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "jQuery",
+                "JavaScript",
+                "DOM Manipulation"
+            ]
+        },
+        {
+            "title": "Connect 4",
+            "image": "assets/images/connect-4.gif",
+            "url": "https://chindowns/github.io/connect-4",
+            "github": "https://github.com/chindowns/connect-4",
+            "description": "Connect Four (also known as Four Up, Plot Four, Find Four, Four in a Row, Four in a Line, Drop Four, and Gravitrips (in Soviet Union)) is a two-player connection board game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs. Connect Four is a solved game. The first player can always win by playing the right moves.",
+            "learning": "Learning: Before even writing code, plan and pseudo code.  Get something on screen, make it work, then make it better.",
+            "skills": [
+                "JavaScript",
+                "ES6",
+                "jQuery",
+                "HTML5",
+                "CSS3"
+            ]
+        },
+        {
+            "title": "Weather API",
+            "image": "assets/images/weather-app.jpg",
+            "url": "https://chindowns.github.io/weather",
+            "github": "https://github.com/chindowns/weather",
+            "description": "The Weather App is a weather dashboard with clean, polished, responsive, friendly, and pleasing weather dashboard that utilizes weatherapi.com as the 3rd party API providing access to all the cities around the world.<br /><br />The site utilizes a search bar where the user can type in their city search and click on the search icon, hit enter or tab to pull the data for a city filtered in the United States.<br /><br />Your weather dashboard also provides a list of your 10 most recently visited cities so the user can easily click on a past visited city to pull up the data.<br /><br />When the user visits the site again.  The current weather of the last city they searched will be displayed on the screen by default.  Nobody likes to see empty displays.<br /><br />Along with the searched cities current condition, they are provided with and icon that represents the weather, the current temperature, what it feels like outside, the humidity, wind, wind direction and UV.  The UV includes a background that changes color at recommended UV warning levels by the EPA and World Health Organization.<br /><br />The user is presented with a 5-day forecast which includes, the forecasted weather condition, a representative icon, temperature, and humidity.",
+            "learning": "Writing functions to manage date manipulation, using forms without requiring mouse clicks and Local Storage to maintain user selections.",
+            "skills": [
+                "JavaScript",
+                "jQuery",
+                "3rd Party API",
+                "Dom Manipulation",
+                "AJAX",
+                "HTML5",
+                "CSS3"
             ]
         }
-    ]
+    ],
+    "template": {
+        "title": "",
+        "image": "",
+        "url": "",
+        "github": "",
+        "description": "",
+        "learning": "",
+        "skills": []
+    }
 }
