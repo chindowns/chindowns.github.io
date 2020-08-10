@@ -4,7 +4,7 @@ Michael Downs portfolio site to highlight current projects with the ability to f
 ## Technology Skills
 * HTML / CSS / CSS Frameworks
 * Javascript / jQuery
-* Nodejs
+* NoSQL / json stores
 * APIs
 
 ## Site Image

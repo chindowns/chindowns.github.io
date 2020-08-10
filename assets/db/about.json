@@ -1,16 +1,14 @@
 {"about": {
         "image": "assets/images/portrait-500.jpg",
         "paragraphs": [
-            "A full stack developer and product manager that is passionate about the product. Customer obsessed. Michael listens to the customer to understand their needs and the importance of delivering quality products on time that exceed expectation to achieve customer confidence.",
-            "Michael delivers clean and polished applications in a collaborative environment. He is an effective communicator that has lead cross-functional teams with an ability to translate technology into everyday language for clients, users, and non-engineering teammates. Michael is a teammate who will manage individual tasks, work with a team pair programming and individual/group troubleshooting. Simply put Michael will is eager to get into the trenches and do whatever it takes to get the job done. Through his clear communication and leadership skills, he delivered successful projects that involved Zoom pair programming, virtual teams and remote troubleshooting.", 
-            "Michael thrives in startup environments where clear communication is vital for efficient and effective decision making to keep product development moving towards delivery on the due date."
+            "A full stack developer and product manager that is passionate about the product. Obsessed about listening and understanding the customer’s needs.  Action oriented knowing the importance of delivering quality products on time to achieve customer confidence creates a great user experience.","Michael delivers clean and polished applications in a collaborative environment. An effective communicator that leads cross-functional teams with an ability to translate technology into everyday language for clients, users, and non-engineering teammates. Michael is a teammate who will manage individual tasks, work with a team pair programming and individual/group troubleshooting. Simply put Michael eagerly gets into the trenches and does whatever it takes to get the job done. Through clear communication and leadership skills, he delivers successful projects using Zoom pair programming, virtual teams and remote troubleshooting.","Michael thrives in startup environments where clear communication is vital for efficient and effective decision making to keep product development moving towards delivery on the due date."
         ]},
     "snippets":
     [
         {
             "title": "Product Focused",
             "icon": "fas fa-crosshairs",
-            "description": "Product Focused means delivering products on time to create great customer experiences.  Keep an eye on the target by managing priorities and deliverables to stay focused on the product."
+            "description": "Delivering products on time to create great customer experiences is all about being action oriented and staying focused on the big picture.  Being product focused means keeping an eye on the big picture and helping everyone on the product team to stay focused on delivering on time."
         },
         {
             "title": "Customer Obsessed",
@@ -20,12 +18,12 @@
         {
             "title": "Collaborative",
             "icon": "fas fa-people-carry",
-            "description": "I have always loved working with cross-functional teams.  With an ability to communicate to diverse disciplines, I found that listening is key to building working relationships.  I like to bring out the best in people by actively listening to them, acknowledging their value, and rolling up my sleeves to help the team wherever needed."
+            "description": "I love working with cross-functional teams.  With an ability to communicate to diverse disciplines, I found that listening is key to building strong working relationships.  I like to bring out the best in people by actively listening to them, acknowledging their value, and rolling up my sleeves to help the team wherever needed.  People working together achieve much more."
         },
         {
             "title": "Ah-Ha Moment",
             "icon": "far fa-lightbulb",
-            "description": "While there are many over the years, I found pair programming very enjoyable."
+            "description": "While there are many over the years, it's easy to over complicate a product and software.  It's hard to apply KISS. Keeping it Simple is always best!"
         }
     ],
     "techSkills": {
