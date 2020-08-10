@@ -25,6 +25,25 @@
             ]
         },
         {
+            "title": "Job App Manager Light",
+            "image": "assets/images/JAM.gif",
+            "url": "https://chindowns.github.io/jam",
+            "description": "JAM is a light Job Application Manager.  The app is a complete refactoring of Job-Kit stripping it to the essential data need to keep track of the job postings the user applies to.  The application is written as a REACT client that utilizes indexedDB to store applications.  This makes the app fast, responsive and simple to use.<br /><br />Since most people use the same browser and same computer for their job searches, this lighter version of Job-Kit makes sense.",
+            "learning": "Deploying a REACT routing client in different enviroments required learning which router to use for each environment.  Deploying a routing REACT app to github.io has it's challenges.",
+            "skills": [
+                "React",
+                "Hooks",
+                "ES6",
+                "JavaScript",
+                "indexedDB",
+                "Responsive",
+                "HTML5",
+                "CSS",
+                "Firebase Hosting",
+                "git"
+            ]
+        },
+        {
             "title": "JobKit",
             "image": "assets/images/jobkit.gif",
             "url": "https://job-kit.herokuapp.com",
