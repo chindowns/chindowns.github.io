@@ -40,6 +40,10 @@ header p{
     color: slategrey;
 }
 
+.nav-item {
+    margin: 0px 4px;
+}
+
 /* .card-img-top {
     width: 300px;
 } */
